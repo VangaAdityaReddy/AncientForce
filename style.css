@@ -1,0 +1,19 @@
+.bg
+{
+  background-image: url("images.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.container
+{
+    cursor: pointer;
+    display:grid;
+    gap: 20px;
+    grid-template-columns:repeat(auto-fill,300px);
+}
+.space
+{
+  border: 10px;
+  padding: 10px;
+}
